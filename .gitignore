@@ -1,0 +1,28 @@
+# Dependências e arquivos gerados
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+
+# Variáveis de ambiente e credenciais locais
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+.npmrc
+
+# Arquivos locais, logs e backups
+.vscode/
+.idea/
+*.log
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
