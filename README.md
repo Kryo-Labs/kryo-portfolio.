@@ -12,14 +12,21 @@ Não há etapa de instalação ou compilação.
 
 - `index.html`: conteúdo, navegação e seções do portfólio.
 - `css/style.css`: identidade visual e layout responsivo.
-- `js/script.js`: reservado para futuras interações.
+- `js/script.js`: animações de entrada com respeito à preferência por movimento reduzido.
 - `assets/images/`: reservado para imagens públicas dos projetos.
 
 ## Conteúdo
 
-A seção Projetos apresenta Assistente Inteligente para Android e Sistema de
-Sobrevivência e Simulação. Imagens e links poderão ser adicionados futuramente.
-As seções Sobre e Contato ainda possuem conteúdo provisório.
+A apresentação destaca KRYO como desenvolvedor independente. A seção Projetos inclui:
+
+- Prontuário Psicopedagógico: protótipo de validação com dados fictícios.
+- Dashboard de Gestão Comercial.
+- Assistente Inteligente para Android.
+- Assistente Inteligente para Windows.
+- Sistema de Sobrevivência e Simulação.
+
+As seções Sobre e Contato apresentam a identidade e os canais públicos de contato.
+Imagens e demonstrações dos projetos poderão ser adicionadas futuramente.
 
 ## Cuidados antes de publicar
 

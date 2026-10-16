@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfólio de desenvolvimento KRYO. Projetos, ideias e soluções em construção.">
+  <meta name="description" content="KRYO. Desenvolvedor independente. Projetos, experimentos e soluções digitais desenvolvidos com curiosidade e propósito.">
   <meta name="theme-color" content="#101112">
-  <title>KRYO | Desenvolvimento</title>
+  <title>KRYO | Desenvolvedor independente</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script.js" defer></script>
 </head>
@@ -19,55 +19,125 @@
   </header>
   <main id="conteudo" class="container" tabindex="-1">
     <section id="inicio" class="hero" aria-labelledby="titulo-inicio">
-      <p class="rotulo">Portfólio de desenvolvimento</p>
       <h1 id="titulo-inicio">KRYO<span aria-hidden="true">.</span></h1>
-      <p class="hero-apresentacao">Desenvolvedor.<br>Ideias que ganham forma em código.</p>
-      <p class="hero-descricao">Um espaço para apresentar o que construo, como penso e o que aprendo no caminho.</p>
-      <a class="botao" href="#projetos">Explorar projetos <span aria-hidden="true">↗</span></a>
-      <div class="hero-rodape" aria-hidden="true"><span>Código · Processo · Construção</span><span>↓</span></div>
+      <p class="nome-pessoal">José Carlos Martins Junior</p>
+      <p class="hero-apresentacao">Desenvolvedor independente.</p>
+      <p class="hero-descricao">Projetos, experimentos e soluções digitais desenvolvidos com curiosidade e propósito.</p>
+      <a class="acesso-projetos" href="#projetos">Ver projetos <span aria-hidden="true">↓</span></a>
     </section>
-    <section id="sobre" class="secao" aria-labelledby="titulo-sobre">
-      <div class="secao-titulo"><span class="numero" aria-hidden="true">01 /</span><h2 id="titulo-sobre">Sobre</h2></div>
+    <section id="projetos" class="secao secao-projetos" aria-labelledby="titulo-projetos">
+      <div class="secao-titulo"><span class="numero" aria-hidden="true">01 /</span><h2 id="titulo-projetos">Projetos</h2></div>
       <div class="secao-conteudo">
-        <p class="chamada">Por trás do código.</p>
-        <!-- Substitua pela sua apresentação real. -->
-        <p class="texto-secundario">Minha trajetória, meus interesses e minha forma de desenvolver serão apresentados aqui.</p>
-        <span class="etiqueta">Apresentação em construção</span>
-      </div>
-    </section>
-    <section id="projetos" class="secao" aria-labelledby="titulo-projetos">
-      <div class="secao-titulo"><span class="numero" aria-hidden="true">02 /</span><h2 id="titulo-projetos">Projetos</h2></div>
-      <div class="secao-conteudo">
-        <p class="chamada">Da ideia à implementação.</p>
-        <p class="texto-secundario">Cada projeto terá espaço para seu contexto, processo de desenvolvimento e demonstração.</p>
         <div class="projetos-grade">
+          <article class="projeto-cartao projeto-destaque" aria-labelledby="projeto-psicopedagogico">
+            <h3 id="projeto-psicopedagogico">Prontuário Psicopedagógico</h3>
+            <p class="projeto-categoria">Em destaque / Aplicação web · Protótipo</p>
+            <p>Um espaço para organizar o acompanhamento infantil: do prontuário e dos instrumentos de avaliação ao registro de sessões e à revisão de relatórios.</p>
+            <div class="projeto-detalhes">
+              <h4>Do atendimento ao acompanhamento</h4>
+              <ul class="funcionalidades">
+                <li><strong>Prontuários e histórico</strong><span>Organização de informações, anamnese e acompanhamento por estudante.</span></li>
+                <li><strong>Instrumentos e atividades</strong><span>Critérios de avaliação, estados de desempenho e observações por atividade.</span></li>
+                <li><strong>Registro de sessões</strong><span>Objetivos, atividades e resultados reunidos no fluxo do atendimento.</span></li>
+                <li><strong>Relatórios revisáveis</strong><span>Organização dos registros para revisão profissional e acompanhamento evolutivo.</span></li>
+              </ul>
+              <p class="diferencial">O foco é preservar o contexto de cada observação, além de marcar tarefas como realizadas.</p>
+              <p class="nota-projeto">Protótipo para validação de fluxo, exclusivamente com dados fictícios. Não realiza diagnóstico automático e não está preparado para armazenar dados reais de pacientes.</p>
+            </div>
+          </article>
+          <article class="projeto-cartao" aria-labelledby="projeto-gestao">
+            <h3 id="projeto-gestao">Dashboard de Gestão Comercial</h3>
+            <p class="projeto-categoria">Aplicação web · Gestão</p>
+            <p>Organização da rotina de um pequeno negócio, conectando pedidos, produtos e acompanhamento financeiro em um painel.</p>
+            <details class="projeto-detalhes" open>
+              <summary>Funcionalidades do projeto</summary>
+              <ul class="funcionalidades">
+                <li><strong>Pedidos e produtos</strong><span>Registro e edição de pedidos, cardápio e controle de estoque.</span></li>
+                <li><strong>Pagamentos divididos</strong><span>Distribuição do valor de um pedido entre diferentes formas de pagamento.</span></li>
+                <li><strong>Caixa e despesas</strong><span>Abertura, fechamento e comparação dos valores esperados e informados.</span></li>
+                <li><strong>Fiado e relatórios</strong><span>Acompanhamento de valores em aberto e exportação de relatórios.</span></li>
+              </ul>
+              <p class="diferencial">Pedidos e movimentações financeiras são apresentados como partes da mesma rotina de gestão.</p>
+              <p class="nota-projeto">Projeto experimental de gestão para um pequeno negócio.</p>
+            </details>
+          </article>
           <article class="projeto-cartao" aria-labelledby="projeto-android">
             <!-- Uma imagem com texto alternativo pode ser adicionada antes do título. -->
             <h3 id="projeto-android">Assistente Inteligente para Android</h3>
+            <p class="projeto-categoria">Aplicativo · Android</p>
             <p>Desenvolvimento de um assistente pessoal para Android, explorando inteligência artificial, automação e integração com funcionalidades do dispositivo.</p>
+            <details class="projeto-detalhes" open>
+              <summary>Objetivo, construção e desafio</summary>
+              <ul class="funcionalidades">
+                <li><strong>Interação por voz</strong><span>Serviços de reconhecimento e integração de voz no Android.</span></li>
+                <li><strong>Ações no dispositivo</strong><span>Interpretação de comandos e integração com recursos do sistema.</span></li>
+                <li><strong>Controle de alarmes</strong><span>Fluxos dedicados à interpretação de pedidos relacionados a alarmes.</span></li>
+              </ul>
+              <dl>
+                <dt>Objetivo</dt><dd>Explorar um assistente pessoal integrado aos recursos do celular.</dd>
+                <dt>Construção</dt><dd>Aplicativo com interação por voz e integração com funcionalidades do Android.</dd>
+                <dt>Desafio do projeto</dt><dd>Conectar a conversa às ações do dispositivo, respeitando permissões e limites do sistema.</dd>
+              </dl>
+              <p class="nota-projeto">Projeto em desenvolvimento.</p>
+            </details>
             <!-- Adicione um link descritivo apenas quando houver um destino confirmado. -->
+          </article>
+          <article class="projeto-cartao" aria-labelledby="projeto-pc">
+            <h3 id="projeto-pc">Assistente Inteligente para Windows</h3>
+            <p class="projeto-categoria">Aplicativo · Windows</p>
+            <p>Desenvolvimento de um assistente para computador, reunindo interação por texto e voz, ações no Windows e consulta a documentos locais.</p>
+            <details class="projeto-detalhes" open>
+              <summary>Objetivo, construção e desafio</summary>
+              <dl>
+                <dt>Conversa por texto e voz</dt><dd>Interface de conversa integrada a reconhecimento e síntese de voz locais.</dd>
+                <dt>Painel compacto</dt><dd>Acesso ao assistente em uma janela menor durante o uso de outros programas.</dd>
+                <dt>Pesquisa local</dt><dd>Consulta a arquivos pessoais e a uma biblioteca offline, sem publicar os documentos.</dd>
+                <dt>Ações no Windows</dt><dd>Comandos para consultar janelas e alternar entre aplicativos.</dd>
+              </dl>
+              <p class="nota-projeto">Projeto em desenvolvimento.</p>
+            </details>
           </article>
           <article class="projeto-cartao" aria-labelledby="projeto-simulacao">
             <!-- Uma imagem com texto alternativo pode ser adicionada antes do título. -->
             <h3 id="projeto-simulacao">Sistema de Sobrevivência e Simulação</h3>
+            <p class="projeto-categoria">Sistemas de jogo · Minecraft</p>
             <p>Desenvolvimento e personalização de sistemas de sobrevivência para jogos, envolvendo mecânicas, progressão de dificuldade e integração de funcionalidades.</p>
+            <details class="projeto-detalhes" open>
+              <summary>Objetivo, construção e desafio</summary>
+              <dl>
+                <dt>Hidratação</dt><dd>Consumo passivo e por esforço, com armazenamento e transferência de água em cantis.</dd>
+                <dt>Temperatura corporal</dt><dd>Influência do ambiente e da temperatura da água sobre o estado do jogador.</dd>
+                <dt>Estado de sobrevivência</dt><dd>Painéis que reúnem hidratação, temperatura e efeitos ativos.</dd>
+                <dt>Progressão integrada</dt><dd>Consulta a sistemas de dificuldade e hordas para apresentar o estado do mundo.</dd>
+              </dl>
+              <p class="nota-projeto">Projeto em desenvolvimento, com ajustes e validações dentro do jogo.</p>
+            </details>
             <!-- Adicione um link descritivo apenas quando houver um destino confirmado. -->
           </article>
         </div>
       </div>
     </section>
+    <section id="sobre" class="secao" aria-labelledby="titulo-sobre">
+      <div class="secao-titulo"><span class="numero" aria-hidden="true">02 /</span><h2 id="titulo-sobre">Sobre</h2></div>
+      <div class="secao-conteudo">
+        <p class="chamada">Projetos que partem de necessidades reais.</p>
+        <p class="texto-secundario">Sou um desenvolvedor independente trabalhando em aplicações de acompanhamento, gestão, assistentes pessoais e sistemas de jogo. Exploro essas áreas por meio de projetos próprios e personalizados, desenvolvendo, testando e ajustando cada solução na prática.</p>
+      </div>
+    </section>
     <section id="contato" class="secao" aria-labelledby="titulo-contato">
       <div class="secao-titulo"><span class="numero" aria-hidden="true">03 /</span><h2 id="titulo-contato">Contato</h2></div>
       <div class="secao-conteudo">
-        <p class="chamada">Uma conversa pode ser o começo.</p>
-        <!-- Inclua apenas endereços e perfis públicos confirmados. -->
-        <p class="texto-secundario">Os canais de contato serão adicionados aqui.</p><span class="etiqueta">Em breve</span>
+        <a class="contato-link" href="https://github.com/Kryo-Labs">GitHub <span aria-hidden="true">↗</span></a>
+        <address class="contatos">
+          <a href="mailto:josecarlosmartinsjunioroficial@gmail.com"><span>E-mail</span><strong>josecarlosmartinsjunioroficial@gmail.com</strong><span aria-hidden="true">↗</span></a>
+          <a href="tel:+5586988637392"><span>Telefone</span><strong>(86) 98863-7392</strong><span aria-hidden="true">↗</span></a>
+        </address>
       </div>
     </section>
   </main>
   <footer class="rodape container">
     <a href="#inicio" class="marca" aria-label="KRYO — voltar ao início">KRYO<span aria-hidden="true">.</span></a>
-    <p>Portfólio em construção.</p><a class="voltar" href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
+    <p>Desenvolvedor independente.</p><a class="voltar" href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
   </footer>
 </body>
 </html>
